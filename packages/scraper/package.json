@@ -1,0 +1,19 @@
+{
+  "name": "@tahy/scraper",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "license": "ISC",
+  "main": "build/index.js",
+  "dependencies": {
+    "@tahy/chrome": "^0.0.0",
+    "@tahy/driver": "^0.0.0",
+    "nodemon": "^1.19.0",
+    "puppeteer": "^1.15.0"
+  },
+  "devDependencies": {
+    "rollup": "^1.11.3"
+  },
+  "scripts": {
+    "start": "nodemon build/index.js --watch=build"
+  }
+}

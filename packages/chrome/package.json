@@ -1,0 +1,13 @@
+{
+  "name": "@tahy/chrome",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "license": "ISC",
+  "main": "build/index.js",
+  "devDependencies": {
+    "rollup": "^1.11.3"
+  },
+  "dependencies": {
+    "puppeteer": "^1.15.0"
+  }
+}
